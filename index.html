@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zing News By Vinh</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp6LJ37iQGdh0-oVfZ2IYjB9sjQerzpORcbg&usqp=CAU" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+
+            <label for="navbar-mobile" class="navbar-mobile-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <input type="checkbox" hidden name="" id="navbar-mobile">
+            <div class="navbar-mobile-menu">
+                <label for="navbar-mobile" class="navbar-mobile-menu-close">
+                    <i class="fas fa-times"></i>
+                </label>
+                <div class="row">
+                    <div class="col l-12 m-12 c-12 navbar-mobile-heading">CHUYÊN MỤC</div>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">BRANDVOICE</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">COVID-19</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">XUẤT BẢN</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">XÃ HỘI</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">PHÁP LUẬT</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">THẾ GIỚI</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">KINH DOANH</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">THỂ THAO</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">GIẢI TRÍ</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">LIFESTYLE</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">CÔNG NGHỆ</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">XE</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">ĐỜI SỐNG</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">SỨC KHOẺ</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">DU LỊCH - ẨM THỰC</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">GIÁO DỤC</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">THỜI TRANG</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">SÁCH</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">TÁC GIẢ</a>
+                </div>
+                <div class="row navbar-row2">
+                    <div class="col l-12 m-12 c-12 navbar-mobile-heading">CHUYÊN TRANG</div>
+                    <a class="col l-12 m-12 c-12 navbar-mobile-heading navbar-mobile-img-container">
+                        <img src="https://static-znews.zadn.vn/images/lifestyle/logo-lifestyle-v3.svg" alt="" class="navbar-mobile-img">
+                    </a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">EXPLAIN</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">LOVE</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">PODCAST</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">EATER</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">DOWNTOWN</a>
+                    <a class="col l-6 m-6 c-6 navbar-mobile-title">MIX</a>
+                </div>
+                <div class="row navbar-row3">
+                    <div class="col l-12 m-12 c-12 navbar-mobile-heading">CHUYÊN TRANG</div>
+                    <a class="col l-3 m-3 c-3 l-o-2 m-o-2 c-o-2 navbar-mobile-heading navbar-mobile-img-container-row3">
+                        <img src="//static-znews.zadn.vn/images/wapchannels/longform_logo.png" alt="" class="navbar-mobile-img">
+                    </a>
+                    <a class="col l-3 m-3 c-3 l-o-2 m-o-2 c-o-2 navbar-mobile-heading navbar-mobile-img-container-row3 img-inforgraphic_container">
+                        <img src="//static-znews.zadn.vn/images/wapchannels/infographic_logo.png" alt="" class="navbar-mobile-img img-inforgraphic">
+                    </a>
+                    <a class="col l-3 m-3 c-3 l-o-2 m-o-2 c-o-2 navbar-mobile-heading navbar-mobile-img-container-row3">
+                        <img src="//static-znews.zadn.vn/images/wapchannels/voices_logo.png" alt="" class="navbar-mobile-img">
+                    </a>
+                    <a class="col l-3 m-3 c-3 l-o-2 m-o-2 c-o-2 navbar-mobile-heading navbar-mobile-img-container-row3">
+                        <img src="//static-znews.zadn.vn/images/wapchannels/story_logo.png" alt="" class="navbar-mobile-img">
+                    </a>
+                    <a class="col l-3 m-3 c-3 l-o-2 m-o-2 c-o-2 navbar-mobile-heading navbar-mobile-img-container-row3">
+                        <img src="//static-znews.zadn.vn/images/wapchannels/lens_logo.png" alt="" class="navbar-mobile-img">
+                    </a>
+                    <a class="col l-3 m-3 c-3 l-o-2 m-o-2 c-o-2 navbar-mobile-heading navbar-mobile-img-container-row3">
+                        <img src="//static-znews.zadn.vn/images/wapchannels/review_logo.png" alt="" class="navbar-mobile-img">
+                    </a>
+                    
+                </div>
+    
+                <div class="navbar-mobile-menu-footer">
+                    <a href="" class="navbar-mobile-footer-link">
+                        <img src="https://static-znews.zadn.vn/images/logo-zing-home.svg" alt="" class="navbar-mobile-footer-img">
+                    </a>
+                    <div class="navbar-mobile-footer-content">
+                        <div class="footer-content_title">Tạp chí điện tử Tri thức trực tuyến</div>
+                        <div class="footer-content_title">Cơ quan chủ quản: Hội Xuất bản Việt Nam</div>
+                        <div class="footer-content_title">Giấy phép báo chí: số 75/GP-BTTTT do Bộ Thông tin và Truyền thông cấp ngày 26/02/2020</div>
+                        <div class="footer-content_title">Phụ trách điều hành: Nguyễn Nguyên</div>
+                        <div class="footer-content_title">Tổng thư ký Tòa soạn: Lâm Quang Hiếu</div>
+                        <div class="footer-content_title">Trụ sở: Toà nhà Sinh viên Việt Nam, Lô D29 Phạm Văn Bạch, Cầu Giấy, Hà Nội</div>
+                        <div class="footer-content_title">HOTLINE: 0931.222.666</div>
+                        <div class="footer-content_title">Email: toasoan@zing.vn</div>
+                    </div>
+                    <div class="navbar-mobile-footer-copyright">
+                        © Toàn bộ bản quyền thuộc Zing
+                    </div>
+                </div>
+            </div>
+    
+            <div class="grid wide header_container">
+                <div class="row">
+                    <div class="header-logo-container col l-2  no-padding">
+                        <a href="./index.html" class="header_logo-wrapper">
+                            <img src="https://static-znews.zadn.vn/images/logo-zing-home.svg" alt="" class="header_logo-img">
+                            <span class="header_logo-text">TRI THỨC TRỰC TUYẾN</span>
+                        </a>
+                    </div>
+                    <ul class=" col l-9 header_category-list">
+                        <li class="header_category-item">
+                            <a href="" class="header_category-link">Xuất bản</a>
+                        </li>
+                        <li class="header_category-item">
+                            <a href="" class="header_category-link">Sách</a>
+                        </li>
+                        <li class="header_category-item">
+                            <a href="" class="header_category-link">Xã hội</a>
+                        </li>
+                        <li class="header_category-item">
+                            <a href="" class="header_category-link">Thế giới</a>
+                        </li>
+                        <li class="header_category-item">
+                            <a href="" class="header_category-link">Kinh doanh</a>
+                        </li>
+                        <li class="header_category-item">
+                            <a href="" class="header_category-link">Công nghệ</a>
+                        </li>
+                        <li class="header_category-item">
+                            <a href="" class="header_category-link">Sức khoẻ</a>
+                        </li>
+                        <li class="header_category-item">
+                            <a href="" class="header_category-link">Thể thao</a>
+                        </li>
+                        <li class="header_category-item">
+                            <a href="" class="header_category-link">Giải trí</a>
+                        </li>
+                        <li class="header_category-item">
+                            <a href="" class="header_category-link">Đời sống</a>
+                        </li>
+                        <li class="header_category-item">
+                            <!-- <i class="fab fa-rocketchat"></i> -->
+                            <span>...</span>
+                        </li>
+                    </ul>
+        
+                    <div class="header_nav-list col l-1">
+                        <li class="header_nav-item">
+                            <i class="header_nav-searchicon fas fa-search"></i>
+                        </li>
+                        <li class="header_nav-item">
+                            <i class="header_nav-usericon far fa-user"></i>
+                        </li>
+                    </div>
+                </div>
+            </div> 
+        </header>
+    
+        <div class="web-container">
+            <div class="grid wide first-web-container">
+                <div class="first-container_keyword row">
+                    <ul class="first-container_keyword-list col l-9 m-12 c-12">
+                        <div class="row">
+                            <li class="first-container_keyword-iconitem">
+                                <i class="fas fa-location-arrow"></i>
+                            </li>
+                            <li class="first-container_keyword-item">
+                                <a href="" class="first-container_keyword-link"># Dịch Covid-19 bùng phát</a>
+                            </li>
+                            <li class="first-container_keyword-item">
+                                <a href="" class="first-container_keyword-link"># Tư vấn cùng bác sĩ Khanh</a>
+                            </li>
+                            <li class="first-container_keyword-item">
+                                <a href="" class="first-container_keyword-link"># Tư vấn phòng Covid-19</a>
+                            </li>
+                            <li class="first-container_keyword-item">
+                                <a href="" class="first-container_keyword-link"># F0 tự</a>
+                            </li>
+                        </div>
+                    </ul>
+                    <div class="first-container_keyword-weather col l-3 m-9 c-9 m-o-3-ontablet c-o-2">
+                        <span class="first-container_keyword-danang">Đà Nẵng</span>
+                        <span class="first-container_keyword-temperature">37°C / 27-37°C</span>
+                        <i class="first-container_keyword-sun fas fa-cloud-sun"></i>
+                        <i class="first-container_keyword-down ti-arrow-circle-down"></i>
+                    </div>
+                </div>
+                <div class="first-container_content row">
+                    <ul class="first-container_cl1content-list col l-3 m-12 c-12">
+                        <li class="first-container_cl1content-item">
+                            <a href="" class="first-container_cl1content-link">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/aobohun/2021_08_11/8G9A9403.JPG" alt="" class="first-container_cl1content-img">
+                                <span class="first-container_cl1content-title">Bí thư TP.HCM: Điều chỉnh việc điều trị F0 để hạn chế quá tải</span>
+                            </a>
+                        </li>
+                        <li class="first-container_cl1content-item">
+                            <a href="" class="first-container_cl1content-link">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/znanug/2021_08_03/DH3.jpg" alt="" class="first-container_cl1content-img">
+                                <span class="first-container_cl1content-title">Điều quan trọng nhất khi điều trị bệnh nhân Covid-19 tại Việt Nam</span>
+                            </a>
+                        </li>
+                        <li class="first-container_cl1content-item">
+                            <a href="" class="first-container_cl1content-link">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/obvunsf/2021_08_10/quynh_1.jpeg" alt="" class="first-container_cl1content-img">
+                                <span class="first-container_cl1content-title">Chỉ có thể là Phan Mạnh Quỳnh</span>
+                            </a>
+                        </li>
+                        <li class="first-container_cl1content-item">
+                            <a href="" class="first-container_cl1content-link">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/znanug/2021_08_10/1_1627967714_1649_1627967854.jpg" alt="" class="first-container_cl1content-img">
+                                <span class="first-container_cl1content-title">Lý do Remdesivir được dùng để chữa Covid-19 dù không giảm tử vong</span>
+                            </a>
+                        </li>
+                        <li class="first-container_cl1content-item">
+                            <a href="" class="first-container_cl1content-link">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/rotntv/2021_08_11/tiem_nham_vaccine_1.jpg" alt="" class="first-container_cl1content-img">
+                                <span class="first-container_cl1content-title">Bị tiêm nước muối, hàng nghìn người Đức cho tiêm vaccine lại</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="first-container_cl2content col l-6 m-12 c-12">
+                        <div class="content_container-fixed">
+                            <a href="" class="first-container_cl2content-link">
+                                <img src="https://znews-photo.zadn.vn/w960/Uploaded/ovhpaob/2021_08_10/tphcm.jpeg" alt="" class="first-container_cl2content-img">
+                                <h3 class="first-container_cl2content-title">Làm gì để TP.HCM đạt mục tiêu ‘kiểm soát dịch trước ngày 15/9</h3>
+                            </a>
+                            <p class="first-container_cl2content-des hide-on-mobile-tablet">
+                                Để kiểm soát dịch trước 25/8 ở các địa phương và trước 15/9 ở TP.HCM, đại biểu Hoàng Văn Cường cho rằng cần thực hiện đồng bộ nhiều giải pháp về cách ly, khoanh vùng, tiêm vaccine.
+                            </p>
+                            <ul class="first-container_cl2content-extralist hide-on-mobile-tablet">
+                                <li class="first-container_cl2content-extraitem">
+                                    <a href="" class="first-container_cl2content-extralink">
+                                        Chính phủ đặt mục tiêu 'TP.HCM kiểm soát dịch trước 15/9
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+    
+                    </div>
+                    <div class="first-container_cl3content col l-3 m-12 c-12">
+                        <ul class="first-container_cl3content-list">
+                            <li class="first-container_cl3content-item">
+                                <a href="" class="first-container_cl3content-link">
+                                    <img src="https://znews-photo.zadn.vn/w480/Uploaded/ovhpaob/2021_08_11/Hop_1.jpeg" alt="" class="first-container_cl3content-img">
+                                    <span class="first-container_cl3content-title">Tổng bí thư dự phiên họp đầu tiên của Chính phủ khoá mới</span>
+                                </a>
+                            </li>
+                            <li class="first-container_cl3content-item">
+                                <a href="" class="first-container_cl3content-link">
+                                    <img src="https://znews-photo.zadn.vn/w480/Uploaded/ovhpaob/2021_08_11/Pho_TTg_Khai_2.jpeg" alt="" class="first-container_cl3content-img">
+                                    <span class="first-container_cl3content-title">Chính phủ yêu cầu thực hiện các giải pháp phục hồi, phát triển kinh tế</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                </div>        
+            </div>
+    
+            <div class="web-container__multimedia grid wide">
+                <div class="multimedia__heading">
+                    <span class="multimedia_title">
+                        <span class="multimedia_title-line">/</span>
+                        MULTIMEDIA
+                    </span>
+                    <ul class="multimedia_category-list">
+                        <li class="multimedia_category-item">
+                            <a href="" class="multimedia_category-link">VIDEO</a>
+                        </li>
+                        <li class="multimedia_category-item">
+                            <a href="" class="multimedia_category-link">LONGFORM</a>
+                        </li>
+                        <li class="multimedia_category-item">
+                            <a href="" class="multimedia_category-link">VOICES</a>
+                        </li>
+                        <li class="multimedia_category-item">
+                            <a href="" class="multimedia_category-link">LENS</a>
+                        </li>
+                        <li class="multimedia_category-item">
+                            <a href="" class="multimedia_category-link">STORY</a>
+                        </li>
+                        <li class="multimedia_category-item">
+                            <a href="" class="multimedia_category-link">QUIZZ</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="multimedia__body">
+                    <div class="multimedia__body-container-fixed">
+                        <div class="row">
+                            <div class="multimedia__body-mainarticle col l-6 m-12 c-12">
+                                <a href="" class="multimedia-mainarticle-link">
+                                    <img src="https://znews-photo.zadn.vn/w660/Uploaded/sgorvz/2021_08_11/Thumb_2_.jpg" alt="" class="multimedia-mainarticle-img">
+                                    <h3 class="multimedia-mainarticle-title">Việt Nam đã tiếp nhận hơn 19 triệu liều vaccine Covid-19</h3>
+                                </a>
+                                <p class="multimedia-mainarticle-des">Trong số hơn 19 triệu liều vaccine Covid-19 tiếp nhận, Việt Nam đã phân bổ 18 đợt cho các tỉnh, thành trên cả nước.</p>
+                            </div>
+                            <div class="multimedia__body-extraarticle col l-6 m-12 c-12">
+                                <ul class="multimedia-extraarticle-list row">
+                                    <li class="multimedia-extraarticle-item col l-6 m-6 c-6">
+                                        <a href="" class="multimedia-extraarticle-link">
+                                            <img src="https://znews-photo.zadn.vn/w360/Uploaded/ofh_huqfztmf/2021_08_10/2_1.jpg" alt="" class="multimedia-extraarticle-img">
+                                            <span class="multimedia-extraarticle-title">
+                                                <i class="fas fa-image"></i>
+                                                Những chủ nhân Quả bóng Vàng từng khoác áo PSG
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="multimedia-extraarticle-item col l-6 m-6 c-6">
+                                        <a href="" class="multimedia-extraarticle-link">
+                                            <img src="https://znews-photo.zadn.vn/w360/Uploaded/neg_esfjaex/2021_07_31/216007113_10161070817219097_8621686820560994485_n_1.jpg" alt="" class="multimedia-extraarticle-img">
+                                            <span class="multimedia-extraarticle-title">
+                                                <i class="fab fa-youtube"></i>
+                                                Người nội trợ trẻ tìm niềm vui trong căn bếp mùa giãn cách
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="multimedia-extraarticle-item col l-6 m-6 c-6">
+                                        <a href="" class="multimedia-extraarticle-link">
+                                            <img src="https://znews-photo.zadn.vn/w360/Uploaded/lerl/2018_10_18/a1.jpeg" alt="" class="multimedia-extraarticle-img">
+                                            <span class="multimedia-extraarticle-title">
+                                                <i class="fab fa-youtube"></i>
+                                                Dân Hà Nội đi chợ từ 4h tránh chốt kiểm dịch
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="multimedia-extraarticle-item col l-6 m-6 c-6">
+                                        <a href="" class="multimedia-extraarticle-link">
+                                            <img src="https://znews-photo.zadn.vn/w360/Uploaded/ngtrzz/2021_07_05/Thumb_ZBB_Cach_can_doi_chi_tieu_khien_moi_dong_tien_lam_ra_deu_co_ich.jpg" alt="" class="multimedia-extraarticle-img">
+                                            <span class="multimedia-extraarticle-title">
+                                                <i class="fas fa-image"></i>
+                                                Thắt chặt chi tiêu với phương pháp ZBB
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="web-container__book grid wide">
+                <div class="container-book_heading">
+                    <span class="container-book-title">
+                        <span class="container-book-line">/</span>BOOKS
+                    </span>
+                </div>
+                <div class="container-book_body">
+                    <i class="container-book_lefticon ti-angle-left hide-on-mobile-tablet"></i>
+                    <div class="container-book_link-wrapper">
+                        <a href="" class="container-book_link">
+                            <img src="https://znews-photo.zadn.vn/w210/Uploaded/oplukaa/2021_08_11/kindle_e_reader_t20_4bgjKa_1200x627.jpg" alt="" class="container-book_img">
+                            <span class="container-book_title">Chuyển đổi số là vấn đề nóng của xuất bản toàn cầu</span>
+                        </a>
+                        <a href="" class="container-book_link">
+                            <img src="https://znews-photo.zadn.vn/w210/Uploaded/dqmblcvo/2021_08_10/1r.jpg" alt="" class="container-book_img">
+                            <span class="container-book_title">Trách nhiệm của công dân trong thời dịch bệnh</span>
+                        </a>
+                        <a href="" class="container-book_link">
+                            <img src="https://znews-photo.zadn.vn/w210/Uploaded/oplukaa/2021_08_10/Xuan_Quynh.jpg" alt="" class="container-book_img">
+                            <span class="container-book_title">Xuân Quỳnh và những điều còn lại</span>
+                        </a>
+                        <a href="" class="container-book_link">
+                            <img src="https://znews-photo.zadn.vn/w210/Uploaded/mzjyy/2021_08_10/xet_nghiem.jpg" alt="" class="container-book_img">
+                            <span class="container-book_title">Tình người trong mùa dịch</span>
+                        </a>
+                        <a href="" class="container-book_link">
+                            <img src="https://znews-photo.zadn.vn/w210/Uploaded/dqmblcvo/2021_08_10/1_1.jpg" alt="" class="container-book_img">
+                            <span class="container-book_title">Suy nghĩ tích cực giúp chúng ta khỏe lên</span>
+                        </a>
+                    </div>
+                    <i class="container-book_righticon ti-angle-right hide-on-mobile-tablet"></i>
+                </div>
+            </div>
+    
+            <div class="web-container__article grid wide">
+               <div class="article-main_container-fixed">
+                <div class="row">
+                    <ul class="web-container__article-list col l-7 m-12 c-12">
+                        <div class="row">
+                            <li class="web-container__article-item l-12 m-12 c-12">
+                                <a href="" class="web-container__article-imglink">
+                                    <img src="https://znews-photo.zadn.vn/w360/Uploaded/natmzz/2021_08_09/gettyimages_1333080117_594x594.jpg" alt="" class="web-container__article-img">
+                                </a>
+                                <span class="web-container__article-content">
+                                    <a href="" class="web-container__article-titlelink">
+                                        <h3 class="web-container__article-title">Phản ứng của Ronaldo khi được rủ sang Ligue 1 đối đầu Messi</h3>
+                                    </a>
+                                    <span class="web-container__article-category">
+                                        <span class="web-container__article-time">2 giờ trước</span>
+                                        <span class="web-container__article-kind">Thể thao</span>
+                                    </span>
+                                    <span class="web-container__article-des hidden-on-mobile">Jose Fonte liên tục nhắn tin mời Cristiano Ronaldo đến Lille để chạm trán với Lionel Messi ở mùa giải 2021/22.</span>
+                                </span>
+                            </li>
+                            <li class="web-container__article-item l-12 m-12 c-12">
+                                <a href="" class="web-container__article-imglink">
+                                    <img src="https://znews-photo.zadn.vn/w360/Uploaded/qxjrcqjwq/2021_08_11/lionel_messi_psg_1108_1.jpg" alt="" class="web-container__article-img">
+                                </a>
+                                <span class="web-container__article-content">
+                                    <a href="" class="web-container__article-titlelink">
+                                        <h3 class="web-container__article-title">Xavi, Iniesta lên tiếng khi Messi khoác áo PSG</h3>
+                                    </a>
+                                    <span class="web-container__article-category">
+                                        <span class="web-container__article-time">3 giờ trước</span>
+                                        <span class="web-container__article-kind">Thể thao</span>
+                                    </span>
+                                    <span class="web-container__article-des hidden-on-mobile">Xavi nhấn mạnh Lionel Messi muốn tiếp tục gắn bó với Barcelona, nhưng phải miễn cưỡng gia nhập PSG.</span>
+                                </span>
+                            </li>
+                            <li class="web-container__article-item l-12 m-12 c-12">
+                                <a href="" class="web-container__article-imglink">
+                                    <img src="https://znews-photo.zadn.vn/w360/Uploaded/bzivolby/2021_07_20/cho_nhau.jpg" alt="" class="web-container__article-img">
+                                </a>
+                                <span class="web-container__article-content">
+                                    <a href="" class="web-container__article-titlelink">
+                                        <h3 class="web-container__article-title">Đưa mẹ đến bệnh viện tái khám, tôi có vi phạm Chỉ thị 16?</h3>
+                                    </a>
+                                    <span class="web-container__article-category">
+                                        <span class="web-container__article-time">1 giờ trước</span>
+                                        <span class="web-container__article-kind">PHÁP LUẬT</span>
+                                    </span>
+                                    <span class="web-container__article-des hidden-on-mobile">Luật sư cho biết việc đưa người thân đi tái khám bằng phương tiện cá nhân sẽ vi phạm quy định giãn cách. Người liên quan có thể bị xử phạt vi phạm hành chính.</span>
+                                </span>
+                            </li>
+                            <li class="web-container__article-item l-12 m-12 c-12">
+                                <a href="" class="web-container__article-imglink">
+                                    <img src="https://znews-photo.zadn.vn/w360/Uploaded/wohaahp/2021_08_09/Kha_Nhu_giu_dang_mua_dich_cover.jpg" alt="" class="web-container__article-img">
+                                </a>
+                                <span class="web-container__article-content">
+                                    <a href="" class="web-container__article-titlelink">
+                                        <h3 class="web-container__article-title">Khả Như không ăn đêm, không ăn tinh bột</h3>
+                                    </a>
+                                    <span class="web-container__article-category">
+                                        <span class="web-container__article-time">8 giờ trước</span>
+                                        <span class="web-container__article-kind">THỜI TRANG</span>
+                                    </span>
+                                    <span class="web-container__article-des hidden-on-mobile">Nữ diễn viên cho rằng ăn uống đúng cách, vận động thường xuyên tránh việc bị tăng cân khi ở nhà nhiều ngày.</span>
+                                </span>
+                            </li>
+                        </div>
+                    </ul>
+                    <div class="web-container__chungkhoan col l-4 l-o-1 m-12 c-12">
+                        <div class="row chungkhoan_container">
+                            <div class="web-container__chungkhoanitem col l-6 m-6 c-6">
+                                <h4 class="web-container__chungkhoanitem-heading">CHỨNG KHOÁN</h4>
+                                <span class="web-container__chungkhoanitem-line1">
+                                    <span class="web-container__chungkhoanitem-name">VNIndex</span>
+                                    <span class="web-container__chungkhoanitem-price">1357.79</span>
+                                    <span class="web-container__chungkhoanitem-rate">-4.64</span>
+                                </span>
+                                <span class="web-container__chungkhoanitem-line2">
+                                    <span class="web-container__chungkhoanitem-name">HNX-Index</span>
+                                    <span class="web-container__chungkhoanitem-price">334.44</span>
+                                    <span class="web-container__chungkhoanitem-rate">-0.63</span>
+                                </span>
+                            </div>
+                            <div class="web-container__chungkhoanitem col l-6 m-6 c-6 ">
+                                <h4 class="web-container__chungkhoanitem-heading">TỈ GIÁ USD</h4>
+                                <span class="web-container__chungkhoanitem-line1">
+                                    <span class="web-container__chungkhoanitem-name">Mua vào</span>
+                                    <span class="web-container__chungkhoanitem-price">
+                                        22,670<span class="vietnamdong">đ</span>
+                                    </span>
+                                </span>
+                                <span class="web-container__chungkhoanitem-line2">
+                                    <span class="web-container__chungkhoanitem-name">Bán ra</span>
+                                    <span class="web-container__chungkhoanitem-price">
+                                        22,900<span class="vietnamdong">đ</span>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+            </div>
+    
+            <div class="web-container__highlight grid wide">
+                <div class="highlight_container-fixed">
+                    <div class="hightlight_heading">
+                        <span class="highlight-line">/</span> NỔI BẬT 48 GIỜ
+                    </div>
+                    <div class="hightlight_list row">
+                        <div class="highlight_item l-3 m-12 c-12">
+                            <div class="highlightitem_category">GIẢI TRÍ</div>
+                            <div class="highlightitem_title">Trung Quốc càn quét showbiz sau vụ án hiếp dâm của Ngô Diệc Phàm</div>
+                            <div class="highlightitem_time">12:13 Thứ 4, 11/08</div>
+                        </div>
+                        <div class="highlight_item l-3 m-12 c-12">
+                            <div class="highlightitem_category">XÃ HỘI</div>
+                            <div class="highlightitem_title">Nhiều tiếng nổ lớn từ cửa hàng bán gas ở Sa Pa                     </div>
+                            <div class="highlightitem_time">07:06 Thứ 4, 11/08</div>
+                        </div>
+                        <div class="highlight_item l-3 m-12 c-12">
+                            <div class="highlightitem_category">THỂ THAO</div>
+                            <div class="highlightitem_title">Với Messi, PSG là đội bóng mạnh nhất châu Âu                       </div>
+                            <div class="highlightitem_time">23:00 Thứ 3, 10/08</div>
+                        </div>
+                        <div class="highlight_item l-3 m-12 c-12">
+                            <div class="highlightitem_category">SAIGON METRO</div>
+                            <div class="highlightitem_title">Chuyên gia đánh giá về nguy cơ Covid-19 lây lan ở chung cư</div>
+                            <div class="highlightitem_time">02:31 hôm qua</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="web-container__magazine grid">
+                <div class="magazine_largeheading">
+                    <span class="magazine-line">/</span> MAGAZINE
+                </div>
+    
+                <div class="magazine_body-container row">
+                        <div class="magazine-lefticon hide-on-mobile-tablet">
+                        <i class="ti-angle-left"></i>
+                    </div>
+    
+                    <div class="magazine_body">
+                        <div class="row">
+                            <div class="magazine_body-item col l-3 m-12 c-12">
+    
+                                <div class="magazine-body-item_container">
+                                    <img src="https://znews-photo.zadn.vn/860/Uploaded/yfsgs/2021_08_03/Thumb_6_.jpg" alt="" class="magazine-img">
+                                    <div class="magazine-imgbackground"></div>
+                                    <div class="magazine_heading">LONGFORM</div>
+                                    <span class="magazine-title">CẤP CỨU F0</span>
+                                    <div class="magazine-icon">
+                                        <i class="magazine-item-icon ti-book"></i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="magazine_body-item col l-3 m-12 c-12">
+                                <div class="magazine-body-item_container">
+                                    <img src="https://znews-photo.zadn.vn/860/Uploaded/wyhktpu/2021_07_23/Thumb_2_.jpg" alt="" class="magazine-img">
+                                    <div class="magazine-imgbackground"></div>
+                                    <div class="magazine_heading">BRANDVOICE</div>
+                                    <span class="magazine-title">Carlsberg và hành trình 'truy tìm cầu thủ thứ 12'</span>
+                                    <div class="magazine-icon">
+                                        <i class="magazine-item-icon ti-microphone"></i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="magazine_body-item col l-3 m-12 c-12">
+                                <div class="magazine-body-item_container">
+                                    <img src="https://znews-photo.zadn.vn/860/Uploaded/yfsgs/2021_07_26/tan.jpg" alt="" class="magazine-img">
+                                    <div class="magazine-imgbackground"></div>
+                                    <div class="magazine_heading">TL;DR</div>
+                                    <span class="magazine-title">Bác sĩ chỉ cách giúp F0 nhẹ tự khỏi sau 7 ngày</span>
+                                    <div class="magazine-icon">
+                                        <i class="magazine-item-icon ti-layout-media-left-alt"></i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="magazine_body-item col l-3 m-12 c-12">
+                                <div class="magazine-body-item_container">
+                                    <img src="https://znews-photo.zadn.vn/860/Uploaded/kbfoplb/2021_07_16/DSC_278.jpg" alt="" class="magazine-img">
+                                    <div class="magazine-imgbackground"></div>
+                                    <div class="magazine_heading">STORY</div>
+                                    <span class="magazine-title">Đêm trực căng thẳng tại bệnh viện dã chiến ở TP.HCM</span>
+                                    <div class="magazine-icon">
+                                        <i class="magazine-item-icon ti-agenda"></i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="magazine-righticon hide-on-mobile-tablet">
+                        <i class="ti-angle-right"></i>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="web-container__catearticle grid wide">
+                <div class="catearticle_container-fixed">
+                    <div class="catearticle-row row">
+                        <div class="catearticle-row-item col l-3 m-6 c-12">
+                            <div class="catearticle-item-heading">
+                                <span class="catearticle-line">/</span> 
+                                <a href="" class="catearticle-headinglink">XUẤT BẢN</a>
+                            </div>
+                            <a href="" class="category-link">
+                                <img src="https://znews-photo.zadn.vn/w360/Uploaded/xbfuooo/2021_08_10/sach.jpg" alt="" class="catearticle-img">
+                            <div class="catearticle-title">Nhiều nước công nhận sách là hàng hóa thiết yếu trong mùa dịch</div>
+                            </a>
+        
+                            <a href="" class="catearticle-extra1">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/mzjyy/2021_08_09/213613229_10217061274918643_6936450490804754938_n.jpg" alt="" class="catearticle-extra1-img">
+                                <span class="catearticle-extra1-title">Tặng gạo cho người dân khó khăn trong mùa dịch</span>
+                            </a>
+                            <a href="" class="catearticle-extra2">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/oplukaa/2021_08_10/Hoang_Nam_Tien.jpg" alt="" class="catearticle-extra2-img">
+                                <span class="catearticle-extra2-title">Ông Hoàng Nam Tiến: Tìm thấy giá trị mới trong sách cũ</span>
+                            </a>
+                        </div>
+                        <div class="catearticle-row-item col l-3 m-6 c-12">
+                            <div class="catearticle-item-heading">
+                                <span class="catearticle-line">/</span> 
+                                <a href="" class="catearticle-headinglink">SÁCH HAY</a>
+                            </div>
+                            <a href="" class="category-link">
+                                <img src="https://znews-photo.zadn.vn/w360/Uploaded/dqmblcvo/2021_07_19/truyen_hinh.jpg" alt="" class="catearticle-img">
+                            <div class="catearticle-title">Chỉ một tình yêu với truyền hình</div>
+                            </a>
+        
+                            <a href="" class="catearticle-extra1">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/jotnhg/2021_07_23/chuyen_doi_so_1578882866955114380716_crop_15788828724641135849709.jpg" alt="" class="catearticle-extra1-img">
+                                <span class="catearticle-extra1-title">Làm sao để chuyển đổi số thành công?</span>
+                            </a>
+                            <a href="" class="catearticle-extra2">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/mzjyy/2021_08_08/228301151_595078911901452_7421008725154803831_n.jpg" alt="" class="catearticle-extra2-img">
+                                <span class="catearticle-extra2-title">Tự chữa lành vết thương trong mùa dịch</span>
+                            </a>
+                        </div>
+                        <div class="catearticle-row-item col l-3 m-6 c-12">
+                            <div class="catearticle-item-heading">
+                                <span class="catearticle-line">/</span> 
+                                <a href="" class="catearticle-headinglink">TÁC GIẢ</a>
+                            </div>
+                            <a href="" class="category-link">
+                                <img src="https://znews-photo.zadn.vn/w360/Uploaded/mzjyy/2021_08_07/thien_nhan.jpg" alt="" class="catearticle-img">
+                            <div class="catearticle-title">Thơ mang hạt mầm của niềm tin chiến thắng đại dịch</div>
+                            </a>
+        
+                            <a href="" class="catearticle-extra1">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/oplukaa/2021_08_09/dc295483_2ac1_4267_a49c_e2ab8f08f078.jpg" alt="" class="catearticle-extra1-img">
+                                <span class="catearticle-extra1-title">Xuân Quỳnh: Trước tiên là viết cho mình</span>
+                            </a>
+                            <a href="" class="catearticle-extra2">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/yfrsy/2021_02_22/hands_5634107_960_720.jpg" alt="" class="catearticle-extra2-img">
+                                <span class="catearticle-extra2-title">Lệ khuya đọng tự kiếp nào?</span>
+                            </a>
+                        </div>
+                        <div class="catearticle-row-item col l-3 m-6 c-12">
+                            <div class="catearticle-item-heading">
+                                <span class="catearticle-line">/</span> 
+                                <a href="" class="catearticle-headinglink">XÃ HỘI</a>
+                            </div>
+                            <a href="" class="category-link">
+                                <img src="https://znews-photo.zadn.vn/w360/Uploaded/bzivolby/2021_08_12/Hieu2zing_2__1.jpg" alt="" class="catearticle-img">
+                            <div class="catearticle-title">Bệnh viện dã chiến hồi sức cấp cứu Bình Dương đi vào hoạt động</div>
+                            </a>
+        
+                            <a href="" class="catearticle-extra1">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/lexw/2021_08_12/1.1.jpeg" alt="" class="catearticle-extra1-img">
+                                <span class="catearticle-extra1-title">Hà Nội khuyến khích doanh nghiệp đủ điều kiện tiếp tục hoạt động</span>
+                            </a>
+                            <a href="" class="catearticle-extra2">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/sotntb/2021_08_12/d1be206e409eb7c0ee8f.jpg" alt="" class="catearticle-extra2-img">
+                                <span class="catearticle-extra2-title">Bé trai chào đời ở bệnh viện điều trị Covid-19</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="catearticle_container-fixed">
+                    <div class="catearticle-row row">
+                        <div class="catearticle-row-item col l-3 m-6 c-12">
+                            <div class="catearticle-item-heading">
+                                <span class="catearticle-line">/</span> 
+                                <a href="" class="catearticle-headinglink">KINH DOANH</a>
+                            </div>
+                            <a href="" class="category-link">
+                                <img src="https://znews-photo.zadn.vn/w360/Uploaded/aohunkx/2021_08_12/DSC_0698.jpg" alt="" class="catearticle-img">
+                            <div class="catearticle-title">Bộ Tài chính đã gia hạn hơn 67.000 tỷ đồng thuế và tiền thuê đất</div>
+                            </a>
+        
+                            <a href="" class="catearticle-extra1">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/spuokuw/2021_08_12/AFP.jpeg" alt="" class="catearticle-extra1-img">
+                                <span class="catearticle-extra1-title">Từ vô danh, BioNTech và Moderna thành đại gia dược toàn cầu</span>
+                            </a>
+                            <a href="" class="catearticle-extra2">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/mzdqa/2021_08_12/trung_ga.jpg" alt="" class="catearticle-extra2-img">
+                                <span class="catearticle-extra2-title">Hòa Phát muốn tăng sản lượng trứng gà lên 1 triệu quả/ngày</span>
+                            </a>
+                        </div>
+                        <div class="catearticle-row-item col l-3 m-6 c-12">
+                            <div class="catearticle-item-heading">
+                                <span class="catearticle-line">/</span> 
+                                <a href="" class="catearticle-headinglink">CÔNG NGHỆ</a>
+                            </div>
+                            <a href="" class="category-link">
+                                <img src="https://znews-photo.zadn.vn/w360/Uploaded/yqdlcqrwq/2021_08_12/131507dbc22c35726c3d.jpg" alt="" class="catearticle-img">
+                            <div class="catearticle-title">3 nâng cấp nổi bật trên Samsung Galaxy Z Fold3</div>
+                            </a>
+        
+                            <a href="" class="catearticle-extra1">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/yqdlcqrwq/2021_08_11/am6dqeln3cb8uvwvfifarp6ga3xb2f1z29oxmvs91kjayejw2zdbktz4wko5lqjytpmnys1z9bqoaz0plfl3nv19a5goqb7cgr66icp6fkfvscuw_1628321330923_1.jpeg" alt="" class="catearticle-extra1-img">
+                                <span class="catearticle-extra1-title">Messi khiến lượng người theo dõi PSG trên Internet tăng mạnh</span>
+                            </a>
+                            <a href="" class="catearticle-extra2">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/lcgmvpvs/2021_08_11/210715113501_elgato_facecam_review_lead.jpg" alt="" class="catearticle-extra2-img">
+                                <span class="catearticle-extra2-title">Đối tác Apple muốn theo dõi nhân viên bằng camera tại nhà</span>
+                            </a>
+                        </div>
+                        <div class="catearticle-row-item col l-3 m-6 c-12">
+                            <div class="catearticle-item-heading">
+                                <span class="catearticle-line">/</span> 
+                                <a href="" class="catearticle-headinglink">XE</a>
+                            </div>
+                            <a href="" class="category-link">
+                                <img src="https://znews-photo.zadn.vn/w360/Uploaded/abhuuwo/2021_08_12/2003_ferrari_enzo_sells_for_3.8_million_1_.jpg" alt="" class="catearticle-img">
+                            <div class="catearticle-title">Siêu xe Ferrari Enzo hàng hiếm được bán với giá 3,8 triệu USD</div>
+                            </a>
+        
+                            <a href="" class="catearticle-extra1">
+                                <img src="https://znews-photo.zadn.vn/Uploaded/wpdhnccwv/2021_08_12/ezgif.com_gif_maker_2_.gif" alt="" class="catearticle-extra1-img">
+                                <span class="catearticle-extra1-title">Xe tải lấn làn vượt ẩu tại TP.HCM</span>
+                            </a>
+                            <a href="" class="catearticle-extra2">
+                                <img src="https://znews-photo.zadn.vn/Uploaded/wpdhnccwv/2021_08_12/ezgif.com_gif_maker_1_.gif" alt="" class="catearticle-extra2-img">
+                                <span class="catearticle-extra2-title">Toyota Vios đi ngược chiều trên quốc lộ 1</span>
+                            </a>
+                        </div>
+                        <div class="catearticle-row-item col l-3 m-6 c-12">
+                            <div class="catearticle-item-heading">
+                                <span class="catearticle-line">/</span> 
+                                <a href="" class="catearticle-headinglink">SỨC KHOẺ</a>
+                            </div>
+                            <a href="" class="category-link">
+                                <img src="https://znews-photo.zadn.vn/w360/Uploaded/mdf_reovdl/2021_08_06/DSC_5583_DuyHieu_7.jpg" alt="" class="catearticle-img">
+                            <div class="catearticle-title">Xét nghiệm tìm kháng thể cho người đã tiêm vaccine Covid-19 ở TP.HCM</div>
+                            </a>
+        
+                            <a href="" class="catearticle-extra1">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/znanug/2021_08_11/4d6b195acbad3cf365bc.jpg" alt="" class="catearticle-extra1-img">
+                                <span class="catearticle-extra1-title">Cảnh giác với những bài thuốc tự chữa Covid-19 trên mạng</span>
+                            </a>
+                            <a href="" class="catearticle-extra2">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/rohunuk/2021_08_12/vac_xin.jpg" alt="" class="catearticle-extra2-img">
+                                <span class="catearticle-extra2-title">Nhiều tỉnh, thành phố đẩy nhanh tốc độ tiêm vaccine Covid-19</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="web-container__video grid wide">
+                <div class="web-container_video-wrapper-fixed">
+                    <div class="row">
+                        <div class="web-container__video-heading">
+                            <span class="web-container__video-line">/</span>
+                            <a href="" class="web-container__video-link">VIDEO</a>
+                        </div>
+                        <div class="web-container__video-body row">
+                            <a href="" class="web-container__video-main col l-8 m-12 c-12">
+                                <img src="./assets/img/dalat1.jpg" alt="" class="web-container__video-img">
+                                <div class="web-container__video-main-icon">
+                                    <i class="main-playicon ti-control-play"></i>
+                                    <!-- <i class="main-playicon fab fa-youtube"></i> -->
+                                </div>
+                            </a>
+                            <div class="web-container__video-extra col l-4 m-12 c-12">
+                                <div class="row">
+                                    <div class="video-extra_item col l-12 m-6 c-6">
+                                        <div class="video-extra-img-container">
+                                            <img src="https://znews-photo.zadn.vn/w210/Uploaded/gtnjj3/2021_07_31/IMG_20210804_133641.jpg" alt="" class="video-extra_item-img">
+                                            <div class="video-extra_item-youtube">
+                                                <div class="video-extra-icon">
+                                                    <i class="extra_playicon ti-control-play"></i>
+                                                </div>
+                                                <div class="video-extra_item-time">
+                                                    04:28
+                                                </div>
+                                            </div>   
+                                        </div>               
+
+                                        <div class="video-extra_item-content">
+                                            <a href="" class="video-extra-item-heading-link">
+                                                <div class="video-extra_item-heading">Hà Nội vắng lặng những ngày giãn cách</div>
+                                            </a>
+                                            <a href="" class="video-extra_item-cate-link">
+                                                <div class="video-extra_item-cate">XÃ HỘI</div>
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="video-extra_item col l-12 m-6 c-6">
+                                        <div class="video-extra-img-container">
+                                            <img src="https://znews-photo.zadn.vn/w210/Uploaded/mdf_rsoznr/2021_07_29/DHH01209.jpg" alt="" class="video-extra_item-img">
+                                            <div class="video-extra_item-youtube">
+                                                <div class="video-extra-icon">
+                                                    <i class="extra_playicon ti-control-play"></i>
+                                                </div>
+                                                <div class="video-extra_item-time">
+                                                    02:36
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+                                        <div class="video-extra_item-content">
+                                            <a href="" class="video-extra-item-heading-link">
+                                                <div class="video-extra_item-heading">Hà Nội sau 7 ngày giãn cách</div>
+                                            </a>
+                                            <a href="" class="video-extra_item-cate-link">
+                                                <div class="video-extra_item-cate">XÃ HỘI</div>
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="video-extra_item col l-12 m-6 c-6">
+                                        <div class="video-extra-img-container">
+                                            <img src="https://znews-photo.zadn.vn/w210/Uploaded/tmuitg/2021_08_09/Tomato_Fried_Rice_It_s_simple_to_prepare_and_it_s_a_very_fragrant_dish_with_few_ingredients..00_02_35_22.Still003.jpg" alt="" class="video-extra_item-img">
+                                            <div class="video-extra_item-youtube">
+                                                <div class="video-extra-icon">
+                                                    <i class="extra_playicon ti-control-play"></i>
+                                                </div>
+                                                <div class="video-extra_item-time">
+                                                    03:50
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                       
+                                        <div class="video-extra_item-content">
+                                            <a href="" class="video-extra-item-heading-link">
+                                                <div class="video-extra_item-heading">Tự làm cơm chiên sốt cà chua tại nhà ngon hơn ngoài tiệm</div>
+                                            </a>
+                                            <a href="" class="video-extra_item-cate-link">
+                                                <div class="video-extra_item-cate">ẨM THỰC</div>
+                                            </a>
+                                        </div>
+                                       
+                                    </div>
+                                    <div class="video-extra_item col l-12 m-6 c-6">
+                                        <div class="video-extra-img-container">
+                                            <img src="https://znews-photo.zadn.vn/w210/Uploaded/neg_esfjaex/2021_08_12/kim_1.jpg" alt="" class="video-extra_item-img"> 
+                                            <div class="video-extra_item-youtube">
+                                                <div class="video-extra-icon">
+                                                    <i class="extra_playicon ti-control-play"></i>
+                                                </div>
+                                                <div class="video-extra_item-time">
+                                                    01:58
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                       
+                                        <div class="video-extra_item-content">
+                                            <a href="" class="video-extra-item-heading-link">
+                                                <div class="video-extra_item-heading">Mẹo làm kimbap không cần cuộn cho người lười</div>
+                                            </a>
+                                            <a href="" class="video-extra_item-cate-link">
+                                                <div class="video-extra_item-cate">MÓN NGON</div>
+                                            </a>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="web-container__last grid">
+                <div class="web-container__last-wrapper-fixed">
+                    <div class="lastcontainer_list row">
+                        <div class="lastcontainer_item col l-4 m-4 c-12 mtb-8-mobile">
+                            <a href="" class="lastcontainer-heading-link">Ẩm thực</a>
+                            <a href="" class="lastcontainer-body-link">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/spivpdiv/2021_08_01/205998182_2994819294139535_2913569305164116962_n_1.jpeg" alt="" class="lastcontainer-img">
+                                <span class="lastcontainer-body-title">Người trẻ bật mí cách biến tấu món ngon từ cơm nguội</span>
+                            </a>
+                            <a href="" class="lastcontainer-content-link">
+                                <i class="fab fa-youtube"></i>
+                                Công thức bánh ngọt ít calo cho người có chế độ ăn eat clean
+                            </a>
+                            <a href="" class="lastcontainer-content-link">
+                                <i class="fas fa-image"></i>
+                                Mẹo làm kimbap ở nhà không cần cuộn cho người lười
+                            </a>
+                            <a href="" class="lastcontainer-content-link">
+                                <i class="fab fa-youtube"></i>
+                                Công thức đậu hũ nhồi thịt nóng hổi
+                            </a>
+                        </div>
+                        <div class="lastcontainer_item col l-4 m-4 c-12 mtb-8-mobile">
+                            <a href="" class="lastcontainer-heading-link">Phim ảnh</a>
+                            <a href="" class="lastcontainer-body-link">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/bzwvopcg/2021_08_12/46377115_9869793_image_m_34_1628_1_1.jpg" alt="" class="lastcontainer-img">
+                                <span class="lastcontainer-body-title">Người dân ho, đau họng vì đoàn làm phim 'The Flash'</span>
+                            </a>
+                            <a href="" class="lastcontainer-content-link">
+                                <i class="fas fa-image"></i>
+                                Tom Hardy muốn Venom đối đầu Spider-Man trong tương lai
+                            </a>
+                            <a href="" class="lastcontainer-content-link">
+                                <i class="fas fa-image"></i>
+                                Phim mới của Lee Kwang Soo, Cha Seung Won lập kỷ lục
+                            </a>
+                            <a href="" class="lastcontainer-content-link">
+                                <i class="fab fa-youtube"></i>
+                                Cảnh đắt giá của ‘Black Widow’ bị cắt bỏ
+                            </a>
+                        </div>
+                        <div class="lastcontainer_item col l-4 m-4 c-12 mtb-8-mobile">
+                            <a href="" class="lastcontainer-heading-link">Thông tin doanh nghiệp</a>
+                            <a href="" class="lastcontainer-body-link">
+                                <img src="https://znews-photo.zadn.vn/w210/Uploaded/wyhktpu/2021_08_11/hoabinh_2.png" alt="" class="lastcontainer-img">
+                                <span class="lastcontainer-body-title">Tiềm năng bất động sản Hòa Bình khi hạ tầng dần hoàn thiện</span>
+                            </a>
+                            <a href="" class="lastcontainer-content-link">
+                                <i class="fab fa-youtube"></i>
+                                Lời cảm ơn dành cho shipper thời dịch trong giao đoạn dịch bệnh
+                            </a>
+                            <a href="" class="lastcontainer-content-link">
+                                <i class="fab fa-youtube"></i>
+                                Quản trị doanh nghiệp thời dịch với phần mềm 'Make in Vietnam'
+                            </a>
+                            <a href="" class="lastcontainer-content-link">
+                                <i class="fas fa-image"></i>
+                                Lợi thế nghỉ dưỡng và đầu tư tại đô thị biển Thanh Long Bay
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <footer class="footer">
+            <div class="footer_body grid wide">
+                <div class="row">
+                    <div class="footer_body-left col l-6 m-12 c-12">
+                        <a href="" class="footer_body-logolink">
+                            <img src="https://static-znews.zadn.vn/images/logo-zing-home.svg" alt="" class="footer_body-logo">
+                        </a>
+                        <div class="footer_body-left-content">Tạp chí điện tử Tri thức trực tuyến</div>
+                        <div class="footer_body-left-content">Cơ quan chủ quản: Hội Xuất bản Việt Nam</div>
+                        <div class="footer_body-left-content">Giấy phép báo chí: số 75/GP-BTTTT do Bộ Thông tin và Truyền thông cấp ngày 26/02/2020</div>
+                        <div class="footer_body-left-content">© 2021 Toàn bộ bản quyền thuộc Tri thức trực tuyến</div>
+                    </div>
+                    <div class="footer_body-right col l-4 l-o-2 m-12 c-12">
+                        <div class="footer_body-right-content">Tòa soạn: Tầng 7, D29 Phạm Văn Bạch, Quận Cầu Giấy, Hà Nội</div>
+                        <div class="footer_body-right-content">Hotline: 0931.222.666 - Email: toasoan@zing.vn</div>
+                        <div class="footer_body-right-contact">
+                            <a href="" class="footer_body-right-contactlink">Liên hệ</a>
+                            <a href="" class="footer_body-right-contactlink">Tuyển dụng</a>
+                            <a href="" class="footer_body-right-contactlink">Quảng cáo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
